@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "256941587050",
+    "firebase_url": "https://eatxpiryinventory-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "eatxpiryinventory",
+    "storage_bucket": "eatxpiryinventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256941587050:android:c1c19d2e57b3f8b0b66813",
+        "android_client_info": {
+          "package_name": "com.example.eatxpiryinventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256941587050-ukh83qpa394f9bbt2o550hp487mf6b3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl2TEZB7lfhrPiQDa3-ZEKbsRVLgiyg3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256941587050-ukh83qpa394f9bbt2o550hp487mf6b3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

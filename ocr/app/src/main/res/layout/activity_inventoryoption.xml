@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".InventoryOption">
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5c913b"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Inventory Option"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/Save_Fridge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/button_back"
+        android:onClick="Save_Fridge"
+        android:textColor="@color/white"
+        android:text="Fridge"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/greeneatx" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Save_Cabinet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Save_Fridge"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/button_back"
+        android:textColor="@color/white"
+        android:onClick="Save_Cabinet"
+        android:text="Cabinet"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/redeatx" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Save_Room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Save_Cabinet"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/button_back"
+        android:onClick="Save_Room"
+        android:text="Room"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/greeneatx" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Save_Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Save_Room"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/button_back"
+        android:text="Edit"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="#F7EEC0" />
+
+
+</RelativeLayout>

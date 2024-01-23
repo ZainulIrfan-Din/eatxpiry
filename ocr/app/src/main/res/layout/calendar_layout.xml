@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendarView"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/expiring_item"
+        android:textStyle="bold"
+        android:id="@+id/datetitle"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datetitle"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="16/11/2021"
+        android:textStyle="bold"
+        android:id="@+id/idDate"
+        />
+
+    <!--android:hint="Date"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idDate"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:text="Bread in cabinet expired at this date"
+        android:id="@+id/idTextSample1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTextSample1"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/recommended"
+        android:id="@+id/idTextSample2"
+        />
+
+</LinearLayout>

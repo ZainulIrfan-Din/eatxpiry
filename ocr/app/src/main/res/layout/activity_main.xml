@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5c913b"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Expiration Date Recognizer"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_screen"
+        android:layout_width="258dp"
+        android:layout_height="258dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/frame_image_view"
+        android:cropToPadding="true"
+        android:src="@drawable/ic_cam" />
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_screen"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:padding="4dp"
+        android:text="@string/result_will_appear_here"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        android:textColor="@color/greeneatx"
+
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/CaptureBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_display"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/button_back"
+        android:onClick="doProcess"
+        android:text="@string/capture_image"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/redeatx" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_below="@+id/CaptureBtn"
+        android:layout_marginTop="28dp"
+        android:text="Confirm"
+        android:onClick="Confirm"
+        android:textAllCaps="false"
+        android:background="@drawable/button_back"
+        app:backgroundTint="@color/greeneatx"
+        android:id="@+id/ConfirmBtn"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

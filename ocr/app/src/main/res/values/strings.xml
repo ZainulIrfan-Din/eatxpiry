@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ocr</string>
+    <string name="result_will_appear_here"><u>Expiration date will appear here</u></string>
+    <string name="capture_image">Capture Image</string>
+    <string name="detect_text">Detect Text</string>
+
+    <string name="hello">Hello</string>
+    <string name="Admin">Admin</string>
+    <string name="search_elements">Search</string>
+    <string name="inventory">Inventory</string>
+    <string name="scan">Scan</string>
+    <string name="calendar_view">Calendar View</string>
+    <string name="members">Profile</string>
+    <string name="items_due">ITEMS DUE: 3 DAYS</string>
+    <string name="itemdue_text"><strong>Item: </strong>Bread\n<strong>Location: </strong>Cabinet</string>
+    <string name="home">Home</string>
+    <string name="faq">FAQ</string>
+    <string name="profile">Profile</string>
+    <string name="recommended"><strong>Recommended:</strong> Make sandwich with eggs from your cabinet.</string>
+    <string name="expiring_item"><u>Expiring Item(s):</u></string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ADD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linear_ll"
+        android:orientation="horizontal"
+        android:background="#5c913b">
+
+        <ImageView
+            android:id="@+id/backbutton5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/backbutton5"
+            android:layout_marginTop="0mm"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Add Inventory Location"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/linear_ll"
+        android:background="@color/white"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="8dp"
+        android:inputType="textPersonName"
+        android:hint="Location Name"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_margin="8dp"
+        android:backgroundTint="#5c913b"/>
+
+</LinearLayout>

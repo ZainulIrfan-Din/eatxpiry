@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MEMBERSHARINGPAGE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linear_ll"
+        android:orientation="horizontal"
+        android:background="#5c913b">
+
+        <ImageView
+            android:id="@+id/backbutton4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/backbutton4"
+            android:layout_marginTop="0mm"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Members Sharing"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/linear_ll"
+        android:background="@color/white"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nurul Fakhira"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/deleteF"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/delete" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/deletelineF"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="James"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/deleteJ"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/delete"
+            android:layout_marginLeft="180dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:id="@+id/deletelineJ"
+        android:background="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batrisyia"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/deleteB"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/delete"
+            android:layout_marginLeft="160dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        android:id="@+id/deletelineB"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/addmember"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#5c913b"
+        android:text="Add Member"/>
+
+
+
+</LinearLayout>
